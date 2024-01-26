@@ -1,5 +1,5 @@
 # netlify.toml
 [build]
-  command = "npm run build"
+  command = "npm install && npm run start"
   functions = "functions"
   publish = "public"
